@@ -1,0 +1,1 @@
+select sysobjects.name ±íÃû from syscolumns inner join sysobjects on syscolumns.id = sysobjects.id and sysobjects.xtype = 'u' where syscolumns.name = '×Ö¶ÎÃû'

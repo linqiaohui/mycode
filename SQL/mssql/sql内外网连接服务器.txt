@@ -1,0 +1,4 @@
+sql内网不同网段连接服务器
+	hosts 配置 服务器名+tab+ip地址
+sql外网连接服务器
+	路由端口转向，客户端配置sqlclient /cliconfg.exe 增加别名
