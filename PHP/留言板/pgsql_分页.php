@@ -25,7 +25,8 @@
 	    $sm->execute();
 	    while($row = $sm->fetch(PDO::FETCH_NUM, PDO::FETCH_ORI_NEXT))
 	    {
-		    echo "<h3>".$row[0]."  <span>".$row[2]."</span>  <span>".$row[3]."</span></h3>
+	    	    $retime = substr($row[3],0,19);
+		    echo "<h3>".$row[0]."  <span>".$row[2]."</span>  <span>".$retime."</span></h3>
    <p>".$row[1]."</p><hr><br>";
 	    }
 		for($i=1;$i<=$countmax;$i++)   //显示页码
