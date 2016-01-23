@@ -43,7 +43,7 @@
                     $sm->execute();
                 }
                 $sm_result = $sm->fetchALL();
-                if($sm_result[0][count]==1) //rowCount方法返回由$sm上次执行查询时的行数！
+                if($sm_result[0][count]==1)
                 { 
                     return TRUE;
                 } 
